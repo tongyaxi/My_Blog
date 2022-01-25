@@ -80,6 +80,7 @@ Jsp/Servletを駆使しているオリジナルの個人ブログ
 
 #### ホームページ
 <img src="https://user-images.githubusercontent.com/32674906/150896438-2a1943d3-8ab3-4ac3-bb26-1771e30d336e.png" width="1000px" height="500px"/>
+<img src="https://user-images.githubusercontent.com/32674906/150896880-a3f9fd63-39a8-445e-8c63-aef933687d54.png" width="1000px" height="500px"/>
 
 #### カテゴリー
 <img src="https://user-images.githubusercontent.com/32674906/150896511-6210292d-9fc1-4a87-bcf7-a5de4a943409.png" width="1000px" height="500px"/>
