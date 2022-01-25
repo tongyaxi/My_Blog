@@ -2,6 +2,7 @@
 
 ## 概要説明
 Jsp/Servletを駆使しているオリジナルの個人ブログ
+アクセス：http://localhost:8080/my_blog
 
 ## 機能一覧
 * ホームページ（記事一覧）
@@ -41,7 +42,7 @@ Jsp/Servletを駆使しているオリジナルの個人ブログ
 #### Java
 
 * com.tongyaxi.blog.dao DataBase Interface
-* com.tongyaxi.blog.imple DataBase Interface Implblog
+* com.tongyaxi.blog.dao.impl DataBase Interface Impl
 * com.tongyaxi.blog.db c3p0 DataBase Pool
 * com.tongyaxi.blog.filter フィルター
 * com.tongyaxi.blog.model Java Bean
