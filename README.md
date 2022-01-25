@@ -28,7 +28,7 @@ Jsp/Servletを駆使しているオリジナルの個人ブログ
 * Css/JavaScript
 * Ajax
 * Json
-* c3p0（DataBase Pool：http://www.mchange.com/projects/c3p0/）
+* c3p0（user:root password:abc123456　DataBase Pool：http://www.mchange.com/projects/c3p0/）
 * Markdown（https://github.com/pandao/editor.md）
 
 
