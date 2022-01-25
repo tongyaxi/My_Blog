@@ -97,5 +97,8 @@ Jsp/Servletを駆使しているオリジナルの個人ブログ
 #### 記事作成
 <img src="https://user-images.githubusercontent.com/32674906/150896650-62c8e26e-3ad1-48e3-a026-a4502a027b97.png" width="1000px" height="500px"/>
 
+#### 記事詳細
+<img src="https://user-images.githubusercontent.com/32674906/150897277-48aab9aa-2e29-48db-ae1c-620c54c1e716.png" width="1000px" height="500px"/>
+
 #### 記事管理
 <img src="https://user-images.githubusercontent.com/32674906/150896689-627af560-1e2d-4443-9ed6-ed8ea87c00ca.png" width="1000px" height="500px"/>
