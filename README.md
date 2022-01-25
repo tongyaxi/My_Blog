@@ -1,88 +1,80 @@
-# MyBlog
+# Ultra Man Blog
 
-a personal blog site based on Jsp/Servlet - 基于jsp/servlet的个人博客网站
+## アクセスしてみる？：localhost:xxx/my_blog/
 
-## 简介
+## 概要説明
+Jsp/Servletを駆使しているオリジナルの個人ブログ
 
-java web博客网站，尽最大可能实现mvc模式，没有使用到框架，实现了首页预览，文章发布，点赞，评论，Markdown格式编写，分类，标签，阅读排行，时间轴，管理员管理博客，访客记录等。
+## 機能一覧
+ホームページ（記事一覧）
+記事作成（記事追加）
+記事に「いいね！」機能
+記事にコメント
+Markdownのフォーマットで記事作成
+カテゴリ
+タグ
+記事ランク（訪問数よる並び替え機能）
+記事タイムライン
+記事管理（記事削除、記事更新）
+記事検索
+記事の訪問数（引き続きの機能...）
+ファイルアップロード（引き続きの機能...）
 
-* 主要涉及到的知识点有jsp,servlet,mysql,bootstrap,html/css/js,ajax,json
-
-* 数据库连接池使用了[c3p0](http://www.mchange.com/projects/c3p0/) 你可以在src/c3p0-config.xml配置连接池和数据库信息
-
-* Markdown编辑器使用了[editor.md](https://github.com/pandao/editor.md)
-
-### 快速运行
-
-1. 配置 src/c3p0-config.xml 修改你的数据库信息，确认能建立连接。
-
-2. 运行建表sql建立表 src/myblog.sql,可以在此任意插入一些数据以便检查。
-
-3. 搭建服务器环境,如 eclipse、tomcat 导入整个demo.
-
-4. localhost:xxx/blog/ 访问
+## 利用技術
+Jsp
+Servlet
+Mysql
+Bootstrap
+Css/JavaScript
+Ajax
+Json
+c3p0（DataBase Pool：http://www.mchange.com/projects/c3p0/）
+Markdown（https://github.com/pandao/editor.md）
 
 
-### 数据库
+### データベース
 
-数据库的设计不是很合理，仅作DEMO，当然你可以重新设计数据库。
-你可以在src/目录下找到详细的sql文件。
+* t_article - 記事
+* t_comment - コメント
+* t_tag - タグ
+* t_user - ユーザー
 
-* t_article - 文章表
-* t_article_delet - 删除的文章表 避免误删(不过作用不大)
-* t_comment - 评论表
-* t_tag - 文章的标签表
-* t_user - 管理员表
-* t_visitor - 访问记录表
+### 項目構成
+#### Java
 
-### 目录介绍
+* com.tongyaxi.blog.dao DataBase Interface
+* com.tongyaxi.blog.imple DataBase Interface Implblog
+* com.tongyaxi.blog.db c3p0 DataBase Pool
+* com.tongyaxi.blog.filter フィルター
+* com.tongyaxi.blog.model Java Bean
+* com.tongyaxi.blog.service Service Class
+* com.tongyaxi.blog.servlet コントローラー
+* com.tongyaxi.blog.utils ツール
 
-#### java
-
-* blog/ajax 接受ajax请求的servlet
-* blog/dao 数据库接口类
-* blog/daoImple 数据库接口实现类
-* blog/db 非主要业务的数据库操作
-* blog/filter 过滤器
-* blog/junit 测试包
-* blog/model bean包
-* blog/service 面向web的服务层
-* blog/servlet 主要的控制器servlet
-* blog/utils 工具包
-
-#### web
-
-* admin 管理员网页
-* css 样式
+#### Web
+* admin 記事管理
+* css
 * editormd 
-* img 图片
+* img
 * js javascript
-* page 主要网页
-* upload 图片上传文件夹
+* page ブログ関連
 
-### 引用到的jar包
+### 導入しているJar
 
-* mysql-connector-java   mysql的jdbc工具包
-
-* c3p0-0.9.5.2.jar     c3p0数据库连接池
+* mysql-connector-java
+* c3p0-0.9.5.2.jar
 * mchange-commons-java.jar 
-
 * commons-beanutils-1.9.3-bin.zip  BeanUtils
 * commons-logging-1.2-bin.zip
-
-* jstl.jar  JSTL标签库
+* jstl.jar
 * standard.jar 
-
-* commons-fileupload.jar 文件上传
 * commons-io-2.5.jar
 * commons-lang-2.5.jar
-
-* commons-collections-3.1 集合工具包
-
-* json-lib-2.1-jdk15 JSON包
+* commons-collections-3.1
+* json-lib-2.1-jdk15 JSON
 * ezmorph-1.0.3
 
-### 图片预览
+### Ultra Man Blog
 
 ![无法显示图片](https://github.com/Lemonreds/MyBlog/blob/master/screenshot/1.png)
 
@@ -97,7 +89,3 @@ java web博客网站，尽最大可能实现mvc模式，没有使用到框架，
 ![无法显示图片](https://github.com/Lemonreds/MyBlog/blob/master/screenshot/6.png)
 
 ![无法显示图片](https://github.com/Lemonreds/MyBlog/blob/master/screenshot/7.png)
-
-### 最后
-
-JSP注定要凉凉...
