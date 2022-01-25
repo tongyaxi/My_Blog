@@ -17,6 +17,8 @@
 SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
 
+CREATE DATABASE IF NOT EXISTS my_blog;
+Use my_blog;
 -- ----------------------------
 -- Table structure for tb_article
 -- ----------------------------
