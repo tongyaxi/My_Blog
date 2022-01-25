@@ -1,0 +1,33 @@
+@charset "UTF-8";
+body {
+	background: #eee;
+}
+
+h1 {
+	color: #419e9e;
+}
+p {
+	color: red;
+	margin-top: 50px;
+}
+
+.container {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	width: 340px;
+	height: 400px;
+	margin-left: -170px;
+	margin-top: -200px;
+	text-align: center;
+}
+
+#submit {
+	margin-top: 15px;
+	color: #fff;
+	background-color: #419e9e;
+	border-color: #419e9e;
+	width: 100px;
+	height: 45px;
+	display:inline-block;
+}
