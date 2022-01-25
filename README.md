@@ -1,7 +1,5 @@
 # Ultra Man Blog
 
-## アクセスしてみる？：localhost:xxx/my_blog/
-
 ## 概要説明
 Jsp/Servletを駆使しているオリジナルの個人ブログ
 
