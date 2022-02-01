@@ -44,7 +44,6 @@ INSERT INTO `tb_article` VALUES (2, 'Strutsに関する知識', 'TONGYAXI', 'Str
 INSERT INTO `tb_article` VALUES (3, 'Redisに関する知識', 'TONGYAXI', 'Redis', '2022-01-20 00:00:00', 3, 0, 4, 'Redisは、ネットワーク接続された永続化可能なインメモリデータベース。連想配列（キー・バリュー）、リスト、セットなどのデータ構造を扱える。いわゆるNoSQLデータベースの一つ。オープンソースソフトウェアプロジェクトであり、Redis Labs（英語版）がスポンサーとなって開発されている[4]。');
 INSERT INTO `tb_article` VALUES (4, 'Springに関する知識', 'TONGYAXI', 'Spring', '2022-01-20 00:00:00', 2, 0, 14, 'SpringはJavaに活用されるオープンソースWebアプリケーションフレームワークです。Javaフレームワークの中でも対応範囲が広く万能型であることで人気を集めております。またSpringがStrutsに次ぐ長い歴史を持ち、世界中のシステム開発に利用されております。');
 INSERT INTO `tb_article` VALUES (5, 'MyBatisに関する知識', 'TONGYAXI', 'MyBatis', '2022-01-20 00:00:00', 5, 1, 9, 'Java オブジェクトとSQLとを紐付ける永続化フレームワークです。以前は iBATIS という名前で Apache プロジェクトの１つとして開発されていた。\r\nしかし、 2010年6月に Apache ソフトウェア財団での開発が中止され、現在は MyBatis という名前で開発されている。');
-INSERT INTO `tb_article` VALUES (14, 'Javaの基本知識', 'TOONGYAXI', 'JAVA', '2022-01-24 15:35:25', 0, 1, 6, 'JAVAを使ったプログラミングを作成する上で知っておいて頂きたい基本知識について解説します。クラスやメソッドなどの簡単な解説に加えて、プログラムをどのように記述していくのかについて簡単に説明を行います。');
 INSERT INTO `tb_article` VALUES (16, 'Bootstrap5で高速に', 'TONGYAXI', 'Bootstrap', '2022-01-25 09:59:26', 1, 0, 8, '世界で一番人気のあるフロントエンドライブラリ Bootstrap を使って、モバイルファーストなレスポンシブウェブを素早くデザイン・カスタマイズできます。Sass変数と mixin、レスポンシブグリッドシステム、豊富なコンポーネント、強力な JavaScript プラグインを備えています。');
 
 -- ----------------------------
@@ -92,7 +91,6 @@ INSERT INTO `tb_tag` VALUES (3, 'Redis');
 INSERT INTO `tb_tag` VALUES (4, 'Spring');
 INSERT INTO `tb_tag` VALUES (5, 'MyBatis');
 INSERT INTO `tb_tag` VALUES (1, '知識');
-INSERT INTO `tb_tag` VALUES (14, '');
 INSERT INTO `tb_tag` VALUES (16, 'Bootstrap');
 
 -- ----------------------------
