@@ -75,6 +75,8 @@ Jsp/Servletを駆使しているオリジナルの個人ブログ
 
 ### Ultra Man Blog
 #### ログイン
+![image](https://user-images.githubusercontent.com/32674906/150896361-62d72171-fff6-4fe5-8d38-d1b98cfc5d54.png)
+
 <img src="https://user-images.githubusercontent.com/32674906/150896361-62d72171-fff6-4fe5-8d38-d1b98cfc5d54.png" width="1000px" height="500px"/>
 
 #### ホームページ
